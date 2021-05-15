@@ -695,7 +695,7 @@ header nav .links a:hover {
     margin: 40px;
     padding: 16px; }
   .footerMobile {
-    display: flex;
+    display: hidden;
     justify-content: center; }
   .footerMobile img {
     max-width: 50px;
