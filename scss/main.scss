@@ -862,30 +862,6 @@ header nav .links a:hover{
   }
 }
 
-/*mobile hero*/
-@media (max-width: 768px){
-  .heroText{
-    top: 35%;
-    text-align: center;
-    overflow: hidden;
-  }
-  .heroText a button{
-    width: 50%;
-  }
-}
-
-/*mobile galeria*/
-@media (max-width: 768px){
-  .galeria-container{
-    grid-template-columns: 1fr 1fr;
-    overflow: hidden;
-  }
-}
-
-
-.fixed{
-  overflow: hidden;
-}
 
 /*mobile servicios */
 @media (max-width: 768px){
@@ -899,8 +875,8 @@ header nav .links a:hover{
     flex-direction: column;
     align-items: center;
     position: relative;
-    left: 30px;
-    gap: 20px
+    left: 15px;
+    gap: 20px;
   }
   .servicesContainer__sevices__items2{
     flex-direction:column;
