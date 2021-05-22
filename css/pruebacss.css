@@ -71,15 +71,15 @@ header nav .links a:hover {
   height: 564px;
   background-color: white; }
 
-.servicesContainer__sevices__items {
+.servicesContainer__items {
   display: flex;
   justify-content: space-around; }
 
-.servicesContainer__sevices__items2 {
+.servicesContainer__items2 {
   display: flex;
   justify-content: space-around; }
 
-.servicesContainer__sevices__items li {
+.servicesContainer__items li {
   font-size: 28px;
   margin-top: 70px;
   padding: 20px 10px;
@@ -95,7 +95,7 @@ header nav .links a:hover {
   transition: all .3s ease-in;
   cursor: pointer; }
 
-.servicesContainer__sevices__items2 li {
+.servicesContainer__items2 li {
   font-size: 28px;
   margin-top: 70px;
   padding: 20px 10px;
@@ -110,12 +110,12 @@ header nav .links a:hover {
   transition: all .3s ease-in;
   cursor: pointer; }
 
-.servicesContainer__sevices__items li:hover {
+.servicesContainer__items li:hover {
   color: salmon;
   transform: translatey(-10px);
   border-bottom: 2px solid black; }
 
-.servicesContainer__sevices__items li img {
+.servicesContainer__items li img {
   width: 100%;
   height: auto;
   max-width: 65px;
@@ -123,12 +123,12 @@ header nav .links a:hover {
   margin: 10px;
   align-self: center; }
 
-.servicesContainer__sevices__items2 li:hover {
+.servicesContainer__items2 li:hover {
   color: salmon;
   transform: translatey(-10px);
   border-bottom: 2px solid black; }
 
-.servicesContainer__sevices__items2 li img {
+.servicesContainer__items2 li img {
   width: 100%;
   height: auto;
   max-width: 65px;
@@ -520,7 +520,7 @@ header nav .links a:hover {
   margin-bottom: 20px; }
 
 .loginContainer {
-  width: 400px;
+  width: 26%;
   background-color: white;
   border-radius: 12px;
   margin-top: 10px;
@@ -533,7 +533,9 @@ header nav .links a:hover {
   flex-direction: column; }
 
 .inputContainer {
-  margin: 20px 10px; }
+  margin: 20px 10px;
+  font-size: 18px;
+  font-weight: bold; }
 
 .loginInput {
   width: 100%;
@@ -562,7 +564,37 @@ header nav .links a:hover {
 .loginText {
   display: flex;
   margin: 10px 0;
-  padding: 10px 0; }
+  padding: 10px 0;
+  font-weight: bold; }
+
+/*LOGIN MOBILE*/
+@media (max-width: 1400px) {
+  .loginWrapper h2 {
+    position: relative;
+    left: -10px; } }
+
+@media (max-width: 1024px) {
+  .loginWrapper h2 {
+    color: #fff;
+    position: relative;
+    left: -50px;
+    align-self: flex-end;
+    padding-left: 30px;
+    font-size: 40px; }
+  .loginContainer {
+    width: 50%; } }
+
+@media (max-width: 425px) {
+  .loginWrapper h2 {
+    color: #fff;
+    position: static;
+    align-self: flex-start;
+    padding-left: 30px;
+    background-color: black;
+    font-weight: bold;
+    font-size: 40px; }
+  .loginContainer {
+    width: 90%; } }
 
 /*TURNOS*/
 .turnosGeneral {
@@ -572,7 +604,7 @@ header nav .links a:hover {
 .turnosWrapper {
   height: 100%;
   background: url(../images/turnos.jpg) no-repeat left;
-  background-size: 75%;
+  background-size: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center; }
@@ -629,6 +661,26 @@ header nav .links a:hover {
   border-radius: 30px;
   background-color: rgba(250, 128, 114, 0.473);
   font-weight: bold; }
+
+/*MOBILE TURNOS*/
+@media (max-width: 1300px) {
+  .turnosContainer {
+    width: 30%; } }
+
+@media (max-width: 1024px) {
+  .turnosContainer {
+    width: 40%; } }
+
+@media (max-width: 425px) {
+  .turnosContainer {
+    width: 100%; }
+  .inputWrapper {
+    position: static; }
+  .turnosContainer h2 {
+    position: static; }
+  .turnosContainer {
+    position: relative;
+    top: -80px; } }
 
 /*MOBILE HEADER*/
 @media (max-width: 1024px) {
@@ -710,13 +762,13 @@ header nav .links a:hover {
     padding-bottom: 20px;
     top: -10px;
     overflow: hidden; }
-  .servicesContainer__sevices__items {
+  .servicesContainer__items {
     flex-direction: column;
     align-items: center;
     position: relative;
     left: 15px;
     gap: 20px; }
-  .servicesContainer__sevices__items2 {
+  .servicesContainer__items2 {
     flex-direction: column;
     align-items: center;
     gap: 20px; } }
@@ -798,7 +850,7 @@ header nav .links a:hover {
     padding-top: 140px;
     color: #fff;
     text-align: center; }
-    .mapa__wrapper .mapa__wrapper--contenedor3 .mapa__wrapper__contendor3--divisor {
+    .mapa__wrapper .mapa__wrapper--contenedor3 .mapa__wrapper--divisor {
       height: 100px;
       width: 2px;
       background-color: salmon; }
