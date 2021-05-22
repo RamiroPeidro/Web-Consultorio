@@ -4,7 +4,7 @@ ScrollReveal().reveal('.servicesContainer__services', {
     reset: true
 });
 
-ScrollReveal().reveal('.servicesContainer__sevices__items2', {
+ScrollReveal().reveal('.servicesContainer__items2', {
     duration:1800,
     distance: '50px',
     reset: true
@@ -28,13 +28,13 @@ ScrollReveal().reveal('.mapa__wrapper--contenedor2', {
     reset: true
 });
 
-ScrollReveal().reveal('.mapa__wrapper__contendor3--subcontenedor1', {
+ScrollReveal().reveal('.mapa__wrapper--subcontenedor1', {
     duration:2200,
     distance: '50px',
     reset: true
 });
 
-ScrollReveal().reveal('.mapa__wrapper__contendor3--subcontenedor2', {
+ScrollReveal().reveal('.mapa__wrapper--subcontenedor2', {
     duration:2200,
     distance: '50px',
     reset: true
