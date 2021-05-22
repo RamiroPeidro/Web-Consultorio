@@ -136,53 +136,6 @@ header nav .links a:hover {
   margin: 10px;
   align-self: center; }
 
-/*COMIENZA MAPA*/
-.ubicacion {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  margin-top: 50px;
-  padding-top: 40px; }
-
-.ubicacionInfo {
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  gap: 55px; }
-
-.ubicacionInfo h2 {
-  font-size: 30px;
-  border-left: 2px solid salmon;
-  padding-left: 10px; }
-
-.ubicacionInfo p {
-  font-size: 15px;
-  padding-top: 30px; }
-
-.correo {
-  position: relative;
-  left: 50px; }
-
-.telefono {
-  position: relative;
-  left: 40px; }
-
-.horario-de-atencion {
-  position: relative;
-  left: 70px; }
-
-#googleMap {
-  height: 500px;
-  padding: 20px;
-  border-radius: 50px;
-  position: relative;
-  top: 120px; }
-
-@media (max-width: 768px) {
-  #googleMap {
-    position: static;
-    margin-top: 50px; } }
-
 /*comienza el footer*/
 .wrapper {
   height: 180px;
@@ -422,85 +375,6 @@ header nav .links a:hover {
     width: 50vw;
     top: 150px;
     left: 36%; } }
-
-/*COMIENZA QUIENES SOMOS*/
-.wrapperSobreNosotros {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 40px;
-  background-image: linear-gradient(45deg, black, black); }
-
-.sobreNosotros {
-  background: url(../images/about-us.jpg) no-repeat left;
-  background-size: 55%;
-  background-color: black;
-  overflow: hidden;
-  padding: 70px 0; }
-
-.sobreNosotrosContainer {
-  width: 55%;
-  position: relative;
-  left: 45%;
-  background-color: #fff;
-  padding: 150px;
-  border-radius: 12px; }
-
-.sobreNosotrosContainer h1 {
-  margin-bottom: 40px;
-  font-size: 30px;
-  font-weight: bold; }
-
-.sobreNosotrosContainer p {
-  font-size: 15px;
-  color: black;
-  letter-spacing: .9px;
-  line-height: 30px;
-  text-align: justify;
-  margin-bottom: 40px; }
-
-.habilidades {
-  display: flex;
-  justify-content: space-between; }
-
-.habilidades span {
-  font-size: 20  px;
-  font-weight: bold; }
-
-.sobreNosotros2 {
-  background: url(../images/2us.jpg) no-repeat right;
-  background-size: 55%;
-  background-color: black;
-  overflow: hidden;
-  padding: 70px 0; }
-
-.sobreNosotrosContainer2 {
-  width: 55%;
-  background-color: #fff;
-  padding: 150px;
-  border-radius: 12px; }
-
-.sobreNosotrosContainer2 h1 {
-  margin-bottom: 40px;
-  font-size: 30px;
-  font-weight: bold; }
-
-.sobreNosotrosContainer2 p {
-  font-size: 15px;
-  color: black;
-  letter-spacing: .9px;
-  line-height: 30px;
-  text-align: justify;
-  margin-bottom: 40px; }
-
-.habilidades2 {
-  display: flex;
-  justify-content: space-between; }
-
-.habilidades2 span {
-  font-size: 20  px;
-  font-weight: bold; }
 
 /*COMIENZA LOGIN*/
 .loginWrapper {
@@ -784,7 +658,6 @@ header nav .links a:hover {
     max-width: 50px;
     height: auto; }
 
-/*COMINEZA MAPA*/
 .img-container1 {
   height: 92vh;
   background-image: url(../images/cardiohd.jpg);
@@ -819,7 +692,8 @@ header nav .links a:hover {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  background-color: black; }
+  background-color: black;
+  padding: 50px 0; }
   .mapa__wrapper .mapa__wrapper--contenedor1 {
     display: flex;
     justify-content: center;
@@ -872,3 +746,60 @@ header nav .links a:hover {
     gap: 80px; }
   .mapa__wrapper--contenedor1 {
     flex-direction: column; } }
+
+/*COMIENZA QUIENES SOMOS*/
+.about-us__container {
+  background-color: rgba(250, 128, 114, 0.473);
+  height: 70%;
+  padding: 50px 0; }
+
+.about-us__titulo h2 {
+  font-size: 90px;
+  font-weight: bold; }
+
+.about-us__titulo p {
+  font-size: 30px; }
+
+.info__img {
+  width: 100%;
+  height: auto; }
+
+.info__img-smaller {
+  width: 100%;
+  height: auto;
+  max-width: 300px; }
+
+.burbujas {
+  background-color: rgba(250, 128, 114, 0.473);
+  height: auto; }
+
+.info-turno {
+  padding: 40px 0;
+  position: relative;
+  top: -150px; }
+
+.info-turno__text h3 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 20px; }
+
+.info-turno__text .first-p {
+  font-size: 23px;
+  padding-top: 4px;
+  font-weight: bold; }
+
+.info-turno__text .second-p {
+  padding-top: 10px; }
+
+@media (max-width: 1024px) {
+  .about-us__titulo h2 {
+    font-size: 60px; }
+  .info-turno {
+    position: static; }
+  .info-turno__img a img {
+    max-width: 200px; } }
+
+@media (max-width: 1024px) {
+  .info-turno {
+    position: static;
+    text-align: center; } }
