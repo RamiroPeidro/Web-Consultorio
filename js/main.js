@@ -78,3 +78,4 @@ ScrollReveal().reveal('.info__img-smaller', {
     origin: 'bottom',
     
 });
+

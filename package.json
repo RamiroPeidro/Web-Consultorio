@@ -23,7 +23,8 @@
   },
   "dependencies": {
     "bootstrap": "^5.0.1",
-    "node": "^16.1.0"
+    "node": "^16.1.0",
+    "typed.js": "^2.0.12"
   },
   "description": ""
 }
