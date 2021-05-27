@@ -333,12 +333,12 @@ header nav .links a:hover {
 
 /*LOGIN MOBILE*/
 @media (max-width: 1400px) {
-  .loginWrapper h2 {
+  .loginWrapper h1 {
     position: relative;
     left: -10px; } }
 
 @media (max-width: 1024px) {
-  .loginWrapper h2 {
+  .loginWrapper h1 {
     color: #fff;
     position: relative;
     left: -50px;
@@ -349,7 +349,7 @@ header nav .links a:hover {
     width: 50%; } }
 
 @media (max-width: 425px) {
-  .loginWrapper h2 {
+  .loginWrapper h1 {
     color: #fff;
     position: static;
     align-self: flex-start;
