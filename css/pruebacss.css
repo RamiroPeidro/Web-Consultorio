@@ -253,8 +253,7 @@ header nav .links a:hover {
     justify-content: center;
     margin-left: 0; }
   .contacto-wrapper {
-    background-image: url(/images/slides.jpg);
-    background-position: left; }
+    background: url(../images/slides.jpg) no-repeat left; }
   .contacto-form {
     flex-direction: column;
     height: 200vh;
@@ -537,23 +536,20 @@ header nav .links a:hover {
 
 .img-container1 {
   height: 100vh;
-  background-image: url(/images/cardiohd.jpg);
+  background: url(../images/cardiohd.jpg) no-repeat center;
   background-size: cover;
-  background-position: center;
   background-attachment: fixed; }
 
 .img-container2 {
   height: 100vh;
-  background-image: url(/images/salide2.jpg);
+  background: url(../images/salide2.jpg) no-repeat center;
   background-size: cover;
-  background-position: center;
   background-attachment: fixed; }
 
 .img-container3 {
   height: 100vh;
-  background-image: url(/images/salide3.jpg);
+  background: url(../images/salide3.jpg) no-repeat center;
   background-size: cover;
-  background-position: center;
   background-attachment: fixed; }
 
 .btn-danger {
