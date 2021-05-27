@@ -20,7 +20,7 @@ header nav {
   background-color: transparent!important;
   position: absolute;
   width: 100%;
-  /*background-image:linear-gradient(45deg, rgba(255, 255, 255, 0.8), rgba(245, 224, 230, 0.7));*/ }
+}
 
 header nav .links {
   display: flex;
@@ -151,7 +151,7 @@ header nav .links a:hover {
   align-items: center;
   font-size: 14px;
   z-index: 1;
-  background-image: url(../images/slides2.jpg);
+  background-image: url(/images/slides2.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -176,7 +176,8 @@ header nav .links a:hover {
 }
 
 .contacto-form{
-  height: 100vh;
+  height: auto;
+  padding:100px 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -270,7 +271,7 @@ header nav .links a:hover {
     margin-left: 0;
   }
   .contacto-wrapper{
-    background-image: url(../images/slides.jpg);
+    background-image: url(/images/slides.jpg);
     background-position: left;
   }
 
@@ -304,7 +305,7 @@ header nav .links a:hover {
   background: url(../images/login.jpg) no-repeat center;
   background-size: cover; }
 
-.loginWrapper h2 {
+.loginWrapper h1 {
   color: white;
   align-self: flex-end;
   position: relative;
@@ -513,10 +514,12 @@ header nav .links a:hover {
     padding-bottom: 25px; }
   .links {
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
-    height: 92vh;
+    height: 100vh;
     margin: 0;
+    position: relative;
+    top: -100px;
     padding: 0;
     width: 100%;
     background-color: black;
@@ -555,16 +558,29 @@ header nav .links a:hover {
     padding-bottom: 20px;
     top: -10px;
     overflow: hidden; }
+
   .servicesContainer__items {
     flex-direction: column;
     align-items: center;
     position: relative;
-    left: 15px;
-    gap: 20px; }
+    left: 13px;
+    gap: 70px; 
+    li{
+      font-size:20px;
+    }
+  }
   .servicesContainer__items2 {
     flex-direction: column;
     align-items: center;
-    gap: 20px; } }
+    position: relative;
+    left: -15px;
+    margin-top: 10px;
+    gap: 70px;
+    li{
+      font-size:20px;
+    } 
+  } 
+}
   
 
 
@@ -583,7 +599,7 @@ header nav .links a:hover {
 
 .img-container1{
     height: 100vh;
-    background-image: url(../images/cardiohd.jpg);
+    background-image: url(/images/cardiohd.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -591,7 +607,7 @@ header nav .links a:hover {
 
 .img-container2{
     height: 100vh;
-    background-image: url(../images/salide2.jpg);
+    background-image: url(/images/salide2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -599,7 +615,7 @@ header nav .links a:hover {
 
 .img-container3{
     height: 100vh;
-    background-image: url(../images/salide3.jpg);
+    background-image: url(/images/salide3.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -695,6 +711,10 @@ header nav .links a:hover {
             letter-spacing: 1px;
             position:static;
         }
+    }
+
+    .mapa__wrapper--contenedor2{
+      padding: 0 20px;
     }
 
     .mapa__wrapper--contenedor3{
