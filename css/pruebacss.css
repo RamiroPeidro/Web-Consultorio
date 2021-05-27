@@ -253,7 +253,8 @@ header nav .links a:hover {
     justify-content: center;
     margin-left: 0; }
   .contacto-wrapper {
-    background: url(../images/slides.jpg) no-repeat left; }
+    background: url(../images/slides.jpg) no-repeat left;
+    background-size: cover; }
   .contacto-form {
     flex-direction: column;
     height: 200vh;
@@ -558,9 +559,12 @@ header nav .links a:hover {
 .carousel-text-container {
   height: 82vh; }
 
-@media (max-width: 350px) {
+@media (max-width: 768px) {
   .img-container1 {
     background-size: contain;
+    background-repeat: repeat; }
+  .img-container3 {
+    background-size: cover;
     background-position: left; } }
 
 .mapa__wrapper {
