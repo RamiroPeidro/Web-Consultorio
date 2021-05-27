@@ -272,6 +272,7 @@ header nav .links a:hover {
   }
   .contacto-wrapper{
     background: url(../images/slides.jpg)no-repeat left;
+    background-size: cover;
   }
 
   .contacto-form{
@@ -625,11 +626,15 @@ header nav .links a:hover {
     height:82vh;
 }
 
-@media (max-width: 350px){
+@media (max-width: 768px){
     .img-container1{
         background-size: contain;
-        background-position: left;
+        background-repeat: repeat;
     }
+    .img-container3{
+      background-size: cover;
+      background-position: left;
+  }
 }
 
 
