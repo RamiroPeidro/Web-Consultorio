@@ -281,7 +281,7 @@ header nav .links a:hover {
   color: white;
   align-self: flex-end;
   position: relative;
-  left: -275px;
+  left: -40px;
   margin-bottom: 20px; }
 
 .loginContainer {
@@ -347,9 +347,13 @@ header nav .links a:hover {
     padding-left: 30px;
     font-size: 40px; }
   .loginContainer {
-    width: 50%; } }
+    width: 30%; } }
 
-@media (max-width: 425px) {
+@media (max-width: 900px) {
+  .loginContainer {
+    width: 40%; } }
+
+@media (max-width: 560px) {
   .loginWrapper h1 {
     color: #fff;
     position: static;
@@ -378,12 +382,13 @@ header nav .links a:hover {
   color: white; }
 
 .turnosContainer {
-  width: 400px;
+  width: 30%;
+  margin-top: 30vh !important;
   display: flex;
   color: black;
   flex-direction: column;
   border-radius: 20px;
-  margin: 40px; }
+  padding: 20px; }
 
 .turnosContainer h2 {
   color: white;
@@ -434,7 +439,11 @@ header nav .links a:hover {
 
 @media (max-width: 1024px) {
   .turnosContainer {
-    width: 40%; } }
+    width: 50%; } }
+
+@media (max-width: 768px) {
+  .turnosContainer {
+    width: 70%; } }
 
 @media (max-width: 425px) {
   .turnosContainer {
@@ -632,6 +641,9 @@ header nav .links a:hover {
     transform: rotate(90deg); } }
 
 /*COMIENZA QUIENES SOMOS*/
+.about-us {
+  overflow: hidden; }
+
 .about-us__container {
   background-color: rgba(250, 128, 114, 0.473);
   height: 100vh;
@@ -647,7 +659,7 @@ header nav .links a:hover {
 .arrow_aboutus {
   position: absolute;
   max-width: 30px;
-  top: 800px;
+  top: 85vh;
   left: 50%; }
 
 .info__img {
@@ -687,7 +699,11 @@ header nav .links a:hover {
   .info-turno {
     position: static; }
   .info-turno__img a img {
-    max-width: 200px; } }
+    max-width: 200px; }
+  .container__info-items {
+    padding: 40px 0; }
+  .arrow_aboutus {
+    left: 45%; } }
 
 @media (max-width: 1024px) {
   .info-turno {

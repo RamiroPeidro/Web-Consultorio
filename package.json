@@ -26,5 +26,5 @@
     "node": "^16.1.0",
     "typed.js": "^2.0.12"
   },
-  "description": ""
+  "description": "Web creada para un consultorio medico en HTML, CSS Y JS"
 }
