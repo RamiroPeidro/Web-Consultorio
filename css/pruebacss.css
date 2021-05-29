@@ -456,6 +456,9 @@ header nav .links a:hover {
     position: relative;
     top: -80px; } }
 
+.color-alternative a {
+  color: #000 !important; }
+
 /*MOBILE HEADER*/
 @media (max-width: 1024px) {
   body {
@@ -488,7 +491,9 @@ header nav .links a:hover {
   .links a {
     width: 100%;
     text-align: center;
-    padding: 20px; } }
+    padding: 20px; }
+  .color-alternative a {
+    color: white !important; } }
 
 @keyframes muestraMenu {
   from {
@@ -647,10 +652,13 @@ header nav .links a:hover {
 .about-us__container {
   background-color: rgba(250, 128, 114, 0.473);
   height: 100vh;
+  background-image: url(../images/stethoscope-frame-with-copy-space.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 50px 0; }
 
 .about-us__titulo h2 {
-  font-size: 90px;
+  font-size: 85px;
   font-weight: bold; }
 
 .about-us__titulo p {
@@ -660,7 +668,7 @@ header nav .links a:hover {
   position: absolute;
   max-width: 30px;
   top: 85vh;
-  left: 50%; }
+  left: 20%; }
 
 .info__img {
   width: 100%;
@@ -694,6 +702,10 @@ header nav .links a:hover {
   padding-top: 10px; }
 
 @media (max-width: 1024px) {
+  .about-us__container {
+    background-image: url(../images/about-us-pexel.jpg);
+    background-position: center;
+    background-size: cover; }
   .about-us__titulo h2 {
     font-size: 60px; }
   .info-turno {

@@ -69,6 +69,7 @@ header nav .links a:hover {
   font-size: 16px;
 }
 
+
 /*Comienza la seccion de servicios*/
 .servicesContainer {
   height: 90vh;
@@ -512,6 +513,12 @@ header nav .links a:hover {
   
 }
 
+.color-alternative{
+  a{
+    color: #000 !important;
+  }
+}
+
 /*MOBILE HEADER*/
 @media (max-width: 1024px) {
   body {
@@ -544,7 +551,13 @@ header nav .links a:hover {
   .links a {
     width: 100%;
     text-align: center;
-    padding: 20px; } }
+    padding: 20px; 
+  }
+  .color-alternative a{
+      color: white !important;
+  }
+
+}
 
 @keyframes muestraMenu {
   from {
@@ -755,12 +768,15 @@ header nav .links a:hover {
 .about-us__container{
   background-color: rgba(250, 128, 114, 0.473);
   height:100vh;
+  background-image: url(../images/stethoscope-frame-with-copy-space.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 50px 0;
 }
 
 .about-us__titulo{
   h2{
-    font-size: 90px;
+    font-size: 85px;
     font-weight: bold;
   }
   p{
@@ -772,8 +788,9 @@ header nav .links a:hover {
   position: absolute;
   max-width: 30px;
   top: 85vh;
-  left: 50%;
+  left: 20%;
 }
+
 
 @mixin responsive-images($width, $height){
   width: $width;
@@ -824,6 +841,11 @@ header nav .links a:hover {
 
 
 @media (max-width: 1024px){
+  .about-us__container{
+    background-image: url(../images/about-us-pexel.jpg);
+    background-position: center;
+    background-size: cover;
+  }
   .about-us__titulo h2{
     font-size: 60px;
   }
