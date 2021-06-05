@@ -549,23 +549,74 @@ header nav .links a:hover {
     max-width: 50px;
     height: auto; }
 
-.img-container1 {
-  height: 100vh;
-  background: url(../images/cardiohd.jpg) no-repeat center;
-  background-size: cover;
-  background-attachment: fixed; }
 
 .img-container2 {
   height: 100vh;
-  background: url(../images/salide2.jpg) no-repeat center;
+  background: url(../images/eco.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed; }
 
-.img-container3 {
-  height: 100vh;
-  background: url(../images/salide3.jpg) no-repeat center;
-  background-size: cover;
-  background-attachment: fixed; }
+
+.carousel-caption h1{
+  font-size: 90px;
+  color: #000;
+  font-weight: bold;
+}
+
+.carousel-caption h2{
+  color: #000;
+  font-size: 40px;
+}
+
+.container-active{
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.arrow-active{
+  position: absolute;
+  top: 90%;
+  left: 48%;
+  max-width:40px;
+}
+
+
+@media (max-width: 600px) {
+  .container-active{
+    margin-bottom: 41px;
+  }
+  .carousel-caption h1{
+    font-size: 67px;
+    position: relative;
+    right: 30px;
+    text-align: center;
+  }
+  .carousel-caption h2{
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 400px){
+  .container-active{
+    margin-bottom: 41px;
+  }
+  .carousel-caption h1{
+    font-size: 52px;
+    position: relative;
+    right: 30px;
+    text-align: center;
+  }
+  .carousel-caption h2{
+    font-size: 28px;
+  }
+}
+
+
+
+
 
 .btn-danger {
   border-radius: 40px; }
@@ -627,6 +678,10 @@ header nav .links a:hover {
       padding-bottom: 30px;
       font-weight: bold; }
 
+
+.contendor1__h1{
+  padding-top: 30px;
+}
 @media (max-width: 768px) {
   .mapa__wrapper--contenedor1 h2 {
     font-size: 30px !important;

@@ -38,7 +38,7 @@
                         <img class='logo' src="images/logo.jpg" alt="SAC">
                     </div>
                 </div>
-                <ul class="links">
+                <ul class="links color-alternative">
                     <li><a href="index.html" class="active img-fluid">Home</a></li>
                     <li><a href="quienes-somos.html" class="active img-fluid">Quienes somos</a></li>
                     <li><a href="turnos.html" class="active img-fluid">Turnos</a></li>
@@ -57,50 +57,19 @@
     <!--FIN HEADER-->
 
     <!--HERO-->
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-interval="10000">
         <div class="carousel-inner">
-          <div class="carousel-item">
-            <div class="img-container1"></div>
-    
-            <div class="container d-flex justify-content-center align-items-center">
-              <div class="carousel-caption text-start carousel-text-container  d-flex flex-column justify-content-end">
-                <h2 class="first-h1">Especialistas en cardiología.</h2>
-                <p class='first-p'>Años de experiencia para brindarle confianza a nuestros pacientes.</p>
-                <p class='first-btn'><a class="btn btn-lg btn-danger" href="quienes-somos.html">Sobre nosotros</a></p>
-              </div>
-            </div>
-          </div>
           <div class="carousel-item active">
             <div class="img-container2"></div>
-    
             <div class="container">
-              <div class="carousel-caption carousel-text-container">
+              <div class="carousel-caption carousel-text-container container-active" data-interval="10000">
                 <h1 id="h1-carousel">Sabemos cuidar tu corazón.</h1>
-                <p>Nuestros médicos están perfectamente capacitados para cuidar tu salud.</p>
-                <p><a class="btn btn-lg btn-danger" href="turnos.html">TURNOS</a></p>
+                <h2 id="h2-carousel"></h2>
               </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="img-container3"></div>
-            
-            <div class="container">
-              <div class="carousel-caption text-end carousel-text-container d-flex flex-column justify-content-end">
-                <h2>¿Alguna consulta? Contáctanos.</h2>
-                <p>Llena el formulario y envianos tu duda.</p>
-                <p><a class="btn btn-lg btn-danger" href="contacto-bs.html">Contacto</a></p>
-              </div>
+              <img src="images/arrow.svg" alt="" class="img-fluid arrow-active">
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     <!--FIN HERO-->
 
@@ -142,7 +111,6 @@
         <div class="mapa__wrapper">
           <div class="mapa__wrapper--contenedor1">
               <h2 class='contendor1__h1'>¿DÓNDE ESTAMOS?</h2>
-              <img class='img-fluid contendor1__img' src="images/map.svg" alt="mapa">
           </div>
           <div class="mapa__wrapper--contenedor2">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.990577846014!2d-58.397961884228835!3d-34.60439976504233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaea6726c2ef%3A0xac4102f7e5540152!2sAv.%20Corrientes%202025%2C%20C1045%20AAC%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1621058033876!5m2!1ses!2sar" width="1000" height="350" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
@@ -202,43 +170,44 @@
             <div class="row mt-3">
               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                   <h6 class="text-uppercase fw-bold mb-4">
-                    <i class="fas fa-gem me-3"></i>Company name
+                    <i class="fas fa-heartbeat fa-me-3 mx-2"></i>Consultorio.
                   </h6>
                   <p>
-                    Here you can use rows and columns to organize your footer content. Lorem ipsum
-                    dolor sit amet, consectetur adipisicing elit.
+                    Cuidamos tu salud. Cuidamos tu corazon.
                   </p>
               </div>
   
               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                   <h6 class="text-uppercase fw-bold mb-4">
-                    Useful links
+                    Secciones
                   </h6>
                   <p>
-                    <a href="#!" class="text-reset">Pricing</a>
+                    <a href="#!" class="text-reset">Home</a>
                   </p>
                   <p>
-                    <a href="#!" class="text-reset">Settings</a>
+                    <a href="#!" class="text-reset">Quienes somos</a>
                   </p>
                   <p>
-                    <a href="#!" class="text-reset">Orders</a>
+                    <a href="#!" class="text-reset">Turnos</a>
                   </p>
                   <p>
-                    <a href="#!" class="text-reset">Help</a>
+                    <a href="#!" class="text-reset">Contacto  </a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Inicia sesion</a>
                   </p>
               </div>
  
               <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                   <h6 class="text-uppercase fw-bold mb-4">
-                    Contact
+                    Contacto
                   </h6>
-                  <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                  <p><i class="fas fa-home me-3"></i> Av Corrientes 2025</p>
                   <p>
                     <i class="fas fa-envelope me-3"></i>
-                    info@example.com
+                    consultorio@info.com
                   </p>
-                  <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                  <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                  <p><i class="fas fa-phone me-3"></i> 114485623</p>
               </div>
             </div>
           </div>
@@ -246,7 +215,7 @@
 
         <div class="text-center p-4" style="background-color: rgba(224, 70, 70, 0.39);">
           © 2021 Copyright:
-          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Ramiro Peidro</a>
         </div>
       </footer>
     <!--FIN FOOTER-->
