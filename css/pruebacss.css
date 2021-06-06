@@ -43,7 +43,34 @@ header nav .links {
   height: 3px;
   width: 28px;
   margin: 10px auto;
-  border-radius: 2px; }
+  border-radius: 2px;
+  transition: all .5s ease-in-out; }
+
+.ham span::after, .ham span::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 28px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+  transition: all .5s ease-in-out; }
+
+.ham span::after {
+  transform: translateY(-10px); }
+
+.ham span::before {
+  transform: translateY(10px); }
+
+.ham.open .br-1 {
+  transform: translateX(-50px);
+  background: transparent; }
+
+.ham.open .br-1::before {
+  transform: rotate(45deg) translate(35px, -35px); }
+
+.ham.open .br-1::after {
+  transform: rotate(-45deg) translate(35px, 35px); }
 
 header nav .links a {
   margin: 0 40px;
@@ -465,7 +492,7 @@ header nav .links a {
   color: #000 !important; }
 
 /*MOBILE HEADER*/
-@media (max-width: 1024px) {
+@media (max-width: 3000px) {
   body {
     overflow-x: hidden; }
   .ham {
@@ -482,7 +509,7 @@ header nav .links a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
     margin: 0;
     position: relative;
     top: -100px;
