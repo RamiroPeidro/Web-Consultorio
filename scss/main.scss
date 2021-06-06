@@ -573,12 +573,12 @@ header nav .links a {
   header nav {
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 25px;
     padding-bottom: 25px; }
   .links {
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
     height: 120vh;
     margin: 0;
     position: relative;
@@ -589,11 +589,9 @@ header nav .links a {
     display: none !important;
     opacity: 0; }
   .links li {
-    margin: 15px 0; }
-  .links a {
-    width: 100%;
-    text-align: center;
-    padding: 20px; 
+    margin: 15px 0; 
+    font-size: 40px;
+    border-left: 2px solid salmon;
   }
   .color-alternative a{
       color: white !important;
