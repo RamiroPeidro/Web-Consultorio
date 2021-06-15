@@ -29,6 +29,15 @@
     <script src='js/main.js'></script>
 </head>
 <body class='body'>
+  <!--PANTALLA DE CARGA-->
+    <div class="preloader">
+      <div class="image-container">
+        <img class="img-preloader animate__animated animate__pulse animate__infinite" src="images/contacto-logo.png" alt="corazon">
+      </div>
+      <h3 class="h3-preloader">Cargando...</h3>
+    </div>
+  <!--TERMINA PANTALLA DE CARGA-->
+
     <!-- COMIENZA HEADER-->
     <section class="header">
         <header>
@@ -81,24 +90,24 @@
   <!--BOTON WHATSAPP FIXED-->
 
 
-    <!--INICIO SERVICES-->
-        <div class="servicesContainer" id='services'>
-            <div class="servicesContainer__services">
-                <ul class="servicesContainer__items">
-                    <li> <img src="images/heart.png" alt="eco-doppler">CONSULTAS</li>
-                    <li> <img src="images/general.png" alt="cardiologia">CARDIOLOGÍA</li>
-                    <li> <img src="images/holter.png"  id='holter' alt="holter">HOLTER</li>
-                </ul>
-            </div>
+  <!--INICIO SERVICES-->
+    <div class="servicesContainer" id='services'>
+      <div class="servicesContainer__services">
+        <ul class="servicesContainer__items">
+          <li> <img src="images/heart.png" alt="eco-doppler">CONSULTAS</li>
+          <li> <img src="images/general.png" alt="cardiologia">CARDIOLOGÍA</li>
+          <li> <img src="images/holter.png"  id='holter' alt="holter">HOLTER</li>
+        </ul>
+      </div>
 
-            <div class="servicesContainer__services">
-                <ul class="servicesContainer__items2">
-                    <li> <img src="images/pulse.png" id='stress-test' alt="stress-test">STRESS TEST</li>
-                    <li> <img src="images/ergo.png"  id='ergometria' alt="holter">ERGOMETRÍA</li>
-                    <li> <img src="images/consultas.png"  id='consultas' alt="holter">ECO DOPPLER</li>
-                </ul>
-            </div>
-          </div>
+      <div class="servicesContainer__services">
+        <ul class="servicesContainer__items2">
+          <li> <img src="images/pulse.png" id='stress-test' alt="stress-test">STRESS TEST</li>
+          <li> <img src="images/ergo.png"  id='ergometria' alt="holter">ERGOMETRÍA</li>
+          <li> <img src="images/consultas.png"  id='consultas' alt="holter">ECO DOPPLER</li>
+        </ul>
+      </div>
+    </div>
           
     <!--FIN SERVICES-->
         
@@ -217,7 +226,8 @@
         </div>
       </footer>
     <!--FIN FOOTER-->
-    
+  
+<script src='js/preloader.js'></script>    
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <script src='js/type2.js'></script>
 <script src='js/script.js'></script>
