@@ -221,7 +221,9 @@ header nav .links a {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: rgba(250, 128, 114, 0.671);
+  background-image: url(../images/stethoscope-frame-with-copy-space.jpg);
+  background-position: left;
+
   scroll-snap-align: start;
 }
 
@@ -229,6 +231,9 @@ header nav .links a {
   .img-form__h2{
     font-size:50px;
     font-weight: bold;
+  }
+  img{
+    position: relative;
   }
 }
 
@@ -335,8 +340,31 @@ header nav .links a {
     text-align: center;
     margin-left: 70px;
   }
+  .contacto-form{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
 
+@media (max-width:450px){
+  .img-form{
+    .img-form__h2{
+      font-size:50px;
+      font-weight: bold;
+    }
+    img{
+      position: relative;
+      left: -70px;
+    }
+  }
+
+  .contacto-form{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
 
 /*COMIENZA LOGIN*/
 .loginWrapper {
@@ -973,4 +1001,22 @@ header nav .links a {
 
 .preloader.cargado{
   display: none;
+}
+
+.footer-container{
+  background-color: salmon;
+  color: black;  
+}
+
+.footer-titulo{
+  color: black;
+}
+
+.footer-secciones{
+  p{
+    color: black;
+  }
+  a{
+    text-decoration:none;
+  }
 }

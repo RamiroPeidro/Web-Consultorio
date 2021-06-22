@@ -2,7 +2,7 @@
   });
 
   instance
-  .typeString('Consultorio <strong style="color: #ff6666;">Cardiologico.</strong>')
+  .typeString('Consultorio <strong style="color: #ff6666;">Cardiológico.</strong>')
   .start();
   
 
@@ -11,7 +11,7 @@
 
   segundoh2
   .pauseFor(5000)
-  .typeString('Cuidamos tu <strong style="color: #ff6666;">Corazon.</strong>')
+  .typeString('Cuidamos tu <strong style="color: #ff6666;">Corazón.</strong>')
   .pauseFor(3000)
   .deleteChars(8)
   .typeString('<span style="color: #ff6666;">Salud.</span>')
