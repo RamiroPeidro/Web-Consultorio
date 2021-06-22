@@ -724,12 +724,11 @@ header nav .links a {
   overflow: hidden; }
 
 .about-us__container {
-  background-color: rgba(250, 128, 114, 0.473);
   height: 100vh;
   background-image: url(../images/stethoscope-frame-with-copy-space.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  padding: 50px 0; }
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
 
 .about-us__titulo h2 {
   font-size: 85px;
@@ -758,9 +757,7 @@ header nav .links a {
   height: auto; }
 
 .info-turno {
-  padding: 40px 0;
-  position: relative;
-  top: -150px; }
+  padding: 100px 0; }
 
 .info-turno__text h3 {
   font-size: 40px;
@@ -777,7 +774,6 @@ header nav .links a {
 
 @media (max-width: 1024px) {
   .about-us__container {
-    background-image: url(../images/about-us-pexel.jpg);
     background-position: center;
     background-size: cover; }
   .about-us__titulo h2 {
