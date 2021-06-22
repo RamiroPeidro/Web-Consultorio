@@ -163,8 +163,7 @@ header nav .links a {
 
 /*contacto*/
 .contacto-principal {
-  scroll-snap-type: y proximity;
-  overflow-y: scroll; }
+  overflow-x: hidden; }
 
 .contacto-wrapper {
   display: flex;
@@ -175,8 +174,7 @@ header nav .links a {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height: 100vh;
-  scroll-snap-align: start; }
+  height: 100vh; }
 
 .contacto-texto {
   color: black;
