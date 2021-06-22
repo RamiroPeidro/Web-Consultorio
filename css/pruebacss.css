@@ -603,7 +603,8 @@ header nav .links a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  -webkit-background-size: cover; }
 
 .carousel-caption h1 {
   font-size: 90px;
