@@ -659,8 +659,10 @@ header nav .links a {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/about-us-pexel.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/stethoscope-frame-with-copy-space.jpg);
   background-attachment: fixed;
+  background-size: cover;
+  background-position: right center;
   padding: 50px 0; }
   .mapa__wrapper .mapa__wrapper--contenedor1 {
     display: flex;
@@ -832,3 +834,106 @@ header nav .links a {
 
 .footer-secciones a {
   text-decoration: none; }
+
+.wrapper-trabajos {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/stethoscope-on-white-surface.jpg);
+  background-attachment: fixed;
+  background-position: left;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 50px; }
+
+.trabajos-container {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 70px; }
+
+.imagen-trabajos1 {
+  background-image: url(../images/ecodopplercolor.jpeg);
+  background-size: cover;
+  height: 100%;
+  width: 50%; }
+
+.texto-trabajos1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .texto-trabajos1 .texto-trabajos1__h2 {
+    color: white;
+    font-size: 60px;
+    width: 600px; }
+
+.imagen-trabajos2 {
+  background-image: url(../images/calvin-craig-bdJZn9PmTqM-unsplash.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 50%; }
+
+.texto-trabajos2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .texto-trabajos2 .texto-trabajos2__h2 {
+    color: white;
+    font-size: 60px;
+    width: 400px; }
+
+.imagen-trabajos3 {
+  background-image: url(../images/markus-winkler-BSQxWr8xcI4-unsplash.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 50%; }
+
+.texto-trabajos3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .texto-trabajos3 .texto-trabajos3__h2 {
+    color: white;
+    font-size: 60px;
+    width: 400px; }
+
+@media (max-width: 1024px) {
+  .trabajos-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .texto-trabajos1 .texto-trabajos1__h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    width: auto; }
+  .imagen-trabajos1 {
+    background-image: url(../images/ecodopplercolor.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-top: 10px;
+    width: 100%; }
+  .texto-trabajos2 .texto-trabajos2__h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: auto; }
+  .imagen-trabajos2 {
+    background-image: url(../images/calvin-craig-bdJZn9PmTqM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px; }
+  .texto-trabajos3 .texto-trabajos3__h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: auto; }
+  .imagen-trabajos3 {
+    background-image: url(../images/markus-winkler-BSQxWr8xcI4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    margin-top: 10px; } }

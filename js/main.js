@@ -79,3 +79,44 @@ ScrollReveal().reveal('.info__img-smaller', {
     
 });
 
+ScrollReveal().reveal('.imagen-trabajos1', {
+    duration:3000,
+    distance: '10px',
+    reset: true,
+    origin: 'bottom',
+});
+
+ScrollReveal().reveal('.imagen-trabajos2', {
+    duration:3000,
+    distance: '10px',
+    reset: true,
+    origin: 'bottom',
+});
+
+ScrollReveal().reveal('.imagen-trabajos3', {
+    duration:3000,
+    distance: '10px',
+    reset: true,
+    origin: 'bottom',
+});
+
+ScrollReveal().reveal('.texto-trabajos1__h2', {
+    duration:3000,
+    distance: '10px',
+    reset: true,
+    origin: 'top',
+});
+
+ScrollReveal().reveal('.texto-trabajos2__h2', {
+    duration:3000,
+    distance: '10px',
+    reset: true,
+    origin: 'top',
+});
+
+ScrollReveal().reveal('.texto-trabajos3__h2', {
+    duration:3000,
+    distance: '10px',
+    reset: true,
+    origin: 'top',
+});

@@ -26,7 +26,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4c9cf31e07.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/pruebacss.css">
-    <script src='js/main.js'></script>
+    <script src='js/main.js'></script> 
+    <!--Lo agrego en el head ya que sino no funciona 
+      (la documentacion de la libreria dice que hay que 
+      agregarlo en el head)-->
+
+
 </head>
 <body class='body'>
   <!--PANTALLA DE CARGA-->
@@ -103,7 +108,7 @@
 
       <div class="servicesContainer__services">
         <ul class="servicesContainer__items2">
-          <li> <img src="images/pulse.png" id='stress-test' alt="stress-test">STRESS TEST</li>
+          <li> <img src="images/pulse.png" id='stress-test' alt="stress-test" >STRESS TEST</li>
           <li> <img src="images/ergo.png"  id='ergometria' alt="holter">ERGOMETRÍA</li>
           <li> <img src="images/consultas.png"  id='consultas' alt="holter">ECO DOPPLER</li>
         </ul>
@@ -144,6 +149,34 @@
       </section>
 
     <!--FIN MAPA-->
+
+    <!--COMIENZO SECCION TRABAJOS-->
+    <div class="wrapper-trabajos">
+      <div class="trabajos-container">
+        <div class="texto-trabajos1">
+          <h2 class="texto-trabajos1__h2"></h2>
+        </div>
+        <div class="imagen-trabajos1"></div>
+      </div>
+
+      <div class="trabajos-container">
+        <div class="imagen-trabajos2"></div>
+        <div class="texto-trabajos2">
+          <h2 class="texto-trabajos2__h2"></h2>
+        </div>
+      </div>
+
+      <div class="trabajos-container">
+        <div class="texto-trabajos3">
+          <h2 class="texto-trabajos3__h2"></h2>
+        </div>
+        <div class="imagen-trabajos3"></div>
+      </div>
+    </div>
+
+    
+    <!--FIN SECCION TRABAJOS-->
+
     <!--COMIENZO FOOTER-->
     <footer class="text-center text-lg-start bg-light text-muted">
       <section
@@ -223,18 +256,19 @@
 
       <div class="text-center p-4 footer-container" >
         © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Ramiro Peidro</a>
+        <a class="text-reset fw-bold" href="https://github.com/RamiroPeidro">Ramiro Peidro</a>
       </div>
     </footer>
-  <!--FIN FOOTER-->
-  
-<script src='js/preloader.js'></script>    
-<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-<script src='js/type2.js'></script>
-<script src='js/script.js'></script>
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-<script src='js/main.js'></script>
+    <!--FIN FOOTER-->
+
+<script src="js/scroll_trabajos.js"></script>
+  <script src='js/preloader.js'></script>    
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src='js/type2.js'></script>
+  <script src='js/script.js'></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src='js/main.js'></script>
 </div>
 </body>
 </html>

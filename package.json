@@ -22,8 +22,13 @@
     "nodemon": "^2.0.7"
   },
   "dependencies": {
+    "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.1",
+    "jquery": "^3.6.0",
+    "jquery-parallax.js": "^1.5.0",
     "node": "^16.1.0",
+    "rellax": "^1.12.1",
+    "scrollmagic": "^2.0.8",
     "typed.js": "^2.0.12"
   },
   "description": "Web creada para un consultorio medico en HTML, CSS Y JS"
