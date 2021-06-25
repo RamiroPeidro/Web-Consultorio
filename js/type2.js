@@ -29,7 +29,7 @@
   });
 
   trabajosh22
-  .typeString('APTO FISICO <strong style="color: #ff6666;">EN EL DIA.</strong>')
+  .typeString('APTO FÍSICO <strong style="color: #ff6666;">EN EL DÍA.</strong>')
   .start();
 
   const trabajosh23 = new Typewriter('.texto-trabajos3__h2', {
