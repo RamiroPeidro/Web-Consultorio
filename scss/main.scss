@@ -145,12 +145,15 @@ header nav .links a {
   letter-spacing: 2px;
   word-spacing: 2px;
   transition: all .3s ease-in;
-  cursor: pointer; }
+  cursor: pointer; 
 
-.servicesContainer__items li:hover {
-  color: salmon;
-  transform: translatey(-10px);
-  border-bottom: 2px solid black; }
+  &:hover{
+    color: salmon;
+    transform: translatey(-10px);
+    border-bottom: 2px solid black;
+  }
+}
+
 
 .servicesContainer__items li img {
   width: 100%;
@@ -159,11 +162,6 @@ header nav .links a {
   font-weight: 200;
   margin: 10px;
   align-self: center; }
-
-.servicesContainer__items2 li:hover {
-  color: salmon;
-  transform: translatey(-10px);
-  border-bottom: 2px solid black; }
 
 .servicesContainer__items2 li img {
   width: 100%;
@@ -419,21 +417,22 @@ header nav .links a {
   background-color: salmon;
   border-radius: 20px;
   font-weight: bold;
+  &:hover{
+    color: rgba(0, 0, 0, 0.644);
+  }
 }
 
-
-.loginButton:hover{
-  color: black;
-}
 
 .registro a {
   font-size: 12px;
   margin-left: 10px;
   text-decoration: none;
-  color: black; }
+  color: black; 
+  &:hover{
+    border-bottom: 1px solid rgba(250, 128, 114, 0.466);
+  }
+}
 
-.registro a:hover {
-  border-bottom: 1px solid rgba(250, 128, 114, 0.466); }
 
 .loginText {
   display: flex;
@@ -690,8 +689,6 @@ header nav .links a {
   } 
 }
   
-
-
 .btn-whatsapp{
     display:flex;
     position: fixed;
@@ -1176,19 +1173,18 @@ header nav .links a {
   flex-direction: column;
   justify-content:center;
 
-  h1{
+  &h1{
     font-size:10rem;
     span{
       color: salmon;
     }
   }
 
-  a{
+  &a{
     text-decoration: none;
     padding: 20px 0 0 0;
     color: salmon;
   }
-
 }
 
 
