@@ -131,7 +131,13 @@ header nav .links a {
   letter-spacing: 2px;
   word-spacing: 2px;
   transition: all .3s ease-in;
-  cursor: pointer; }
+  cursor: pointer; 
+  &:hover{
+    color: salmon;
+    transform: translatey(-10px);
+    border-bottom: 2px solid black;
+  }
+}
 
 .servicesContainer__items2 li {
   font-size: 2rem;
@@ -697,7 +703,7 @@ header nav .links a {
     z-index:999;
     img{
         width: 100%;
-        max-width: 50px;
+        max-width: 40px;
         height:auto;
     }
 }
@@ -1173,14 +1179,14 @@ header nav .links a {
   flex-direction: column;
   justify-content:center;
 
-  &h1{
+  h1{
     font-size:10rem;
     span{
       color: salmon;
     }
   }
 
-  &a{
+  a{
     text-decoration: none;
     padding: 20px 0 0 0;
     color: salmon;
