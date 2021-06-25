@@ -289,7 +289,7 @@ header nav .links a {
     background-size: cover; }
   .contacto-form {
     flex-direction: column;
-    height: 200vh;
+    height: auto;
     align-items: center;
     justify-content: space-evenly; }
   .contacto-container {
@@ -323,7 +323,7 @@ header nav .links a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  height: 100%;
+  height: 100vh;
   background: url(../images/login.jpg) no-repeat center;
   background-size: cover; }
 
@@ -485,7 +485,9 @@ header nav .links a {
 /*MOBILE TURNOS*/
 @media (max-width: 1300px) {
   .turnosContainer {
-    width: 30%; } }
+    width: 30%; }
+  .turnosGeneral {
+    height: auto; } }
 
 @media (max-width: 1024px) {
   .turnosContainer {

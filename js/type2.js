@@ -10,9 +10,9 @@
   });
 
   segundoh2
-  .pauseFor(5000)
-  .typeString('Cuidamos tu <strong style="color: #ff6666;">Corazón.</strong>')
   .pauseFor(3000)
+  .typeString('Cuidamos tu <strong style="color: #ff6666;">Corazón.</strong>')
+  .pauseFor(100)
   .deleteChars(8)
   .typeString('<span style="color: #ff6666;">Salud.</span>')
   .start();
